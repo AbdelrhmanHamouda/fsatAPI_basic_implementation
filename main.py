@@ -21,8 +21,6 @@ def index():
 
 
 #  The calculate api endpoint
-
-
 @api.get('/api/calculate')
 def calculate(x: int, y: int, z: Optional[int] = None):
     #  Check if z is Zero and return an error
