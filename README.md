@@ -10,4 +10,8 @@ The use of the below aspects are highlighted:
  - async/await
     - A way to make python scripts faster in cases where some time is spent on "waiting" for something to happen (e.g query for a database).
  - pydantic
-    - Type checking made easy.    
+    - Type checking made easy.
+    
+ # Where to go from here?
+ The follow up for this repo can be found in the link below. There you can find the more 'realistic' API implementation.  
+ Repo path:  ```https://github.com/AbdelrhmanHamouda/Weather_RESTful_api.git ```
