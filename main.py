@@ -1,6 +1,7 @@
 import fastapi
 import uvicorn
 
+# Init the API
 api = fastapi.FastAPI()
 
 
@@ -12,4 +13,5 @@ def calculate():
     }
 
 
-uvicorn.run(api)
+# Run the server with specific port
+uvicorn.run(api, port=8005, host="127.0.0.1")
