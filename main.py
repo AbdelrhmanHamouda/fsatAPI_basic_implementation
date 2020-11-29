@@ -1,3 +1,4 @@
+from typing import Optional
 import fastapi
 import uvicorn
 
@@ -6,7 +7,7 @@ api = fastapi.FastAPI()
 
 
 @api.get('/api/calculate')
-def calculate(x: int, y: int, z: int = 10):
+def calculate(x: int, y: int, z: Optional[int] = None):
     value = (x+y)*z
     return{
         'value': value
